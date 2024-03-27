@@ -1,4 +1,5 @@
 import subprocess, os, sys
+import re
 
 cwd = os.getcwd()
 os.chdir(cwd)
@@ -12,7 +13,7 @@ git commit
       ''')
 commit_message = input('Commit Message : ')
 commit_string_array = ['git', 'commit', '-am']
-commit_message_formatted = f'"{commit_message}"'
+commit_message_formatted = re.sub("readme", 'README', commit_message)
 commit_string_array.append(commit_message_formatted)
 command_2 = subprocess.run(commit_string_array, capture_output=True, text=True)
 print(f'\033[93m{command_2.stdout}\033[0m')
