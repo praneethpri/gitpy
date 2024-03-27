@@ -19,7 +19,8 @@ git push
 ##### Prerequisits
 
 Python 3 needs to be installed.
-There are no other depedencies.
+
+There are no other external depedencies.
 
 1) clone the repository.
 2) make a bash alias,
