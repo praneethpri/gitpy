@@ -37,5 +37,5 @@ source ~/.bashrc
 
 4) run ```gitpy``` in the terminal
 
-5) When prompted write a commit message. (quotes are not necessary.)
+5) When prompted write a commit message. (quotes are not necessary. the 'readme' word will be capitalized.)
 
