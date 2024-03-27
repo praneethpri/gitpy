@@ -34,3 +34,8 @@ replace the ```~/path/to/script``` with the correct path.
 ```bash
 source ~/.bashrc
 ```
+
+4) run ```gitpy``` in the terminal
+
+5) When prompted write a commit message. (quotes are not necessary.)
+
